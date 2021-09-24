@@ -6,7 +6,7 @@ An app to play around with a binary search algorithm. It's implemented in Python
 
 ## Run It:
 
-To run this stupid little program you should open the terminal at the same directory as your sigmoid.py program, and then type:
+To run this stupid little program you should open the terminal at the same directory as your binary_search.py program, and then type:
 
 ```
 python binary_search.py

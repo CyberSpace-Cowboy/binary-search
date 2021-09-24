@@ -15,6 +15,9 @@ python binary_search.py
 ### What is a Binary Search Algorithm?
 It's a mathematical function that maps map the values on the X exis into a small range of values between 0 and 1 on the Y axis. It looks like an S-shaped curve.
 
+![alt text](img/binary_search_concept.gif)
+
+
 ### Why is Binary Search useful?
 - One of the coolest use cases of a sigmoid function is Deep Learning. It's used as an activation function in an artificial neural network. They were inspired by the activation potential in biological neural networks.
 

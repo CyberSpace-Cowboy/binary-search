@@ -20,11 +20,9 @@ def Binary_Search():
 	(left, right) = (0, n-1)
 
 	while left <= right:
-		mid = (right + left) // 2
+		mid = left + (right - left) // 2
 		#if faced with stack overflow, use these:
-		# mid = left + (right - left) / 2
-		# mid = right - (right - left) // 2
-
+		
 		if target == array[mid]:
 			return mid
 

@@ -13,7 +13,7 @@ python binary_search.py
 ```
 
 ### What is a Binary Search Algorithm?
-It's a mathematical function that maps map the values on the X exis into a small range of values between 0 and 1 on the Y axis. It looks like an S-shaped curve.
+Binary Search is a search algorithm that finds the position of a target value within a sorted array. The main idea behind binary search is a Divide and Conquer algorithm. Like all divide-and-conquer algos, binary search first divides a large array into 2 smaller subarrays and then recursively (or iteratively) operate the subarrays. Binary search reduces the search space to half at each step by taking the middle value and comparing it to the target value and discarding the left or right subarray depending on the comparison.
 
 ![alt text](img/binary_search_concept.gif)
 

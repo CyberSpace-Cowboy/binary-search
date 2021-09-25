@@ -17,12 +17,18 @@ Binary Search is a search algorithm that finds the position of a target value wi
 
 ![alt text](img/binary_search_concept.gif)
 
+### Time Complexity
+```
+O(log base 2, of N)
+```
 
 ### Why is Binary Search useful?
-- One of the coolest use cases of a sigmoid function is Deep Learning. It's used as an activation function in an artificial neural network. They were inspired by the activation potential in biological neural networks.
 
-- Sigmoid functions are also useful for many machine learning applications where a real number needs to be converted to a probability. A sigmoid function placed as the last layer of a machine learning model can serve to convert the model's output into a probability score, which can be easier to work with and interpret.
+Software development examples:
 
-- Sigmoid functions are an important part of a logistic regression model. Logistic regression is a modification of linear regression for two-class classification, and converts one or more real-valued inputs into a probability, such as the probability that a customer will purchase a product. The final stage of a logistic regression model is often set to the logistic function, which allows the model to output a probability.
+- Debugging a somewhat linear piece of code. if the code has many steps mostly executed in a sequence and there's a bug, you can isolate the bug by finding the earliest step where the code produces results which are different from the expected ones.
+- Cherry picking a bad code change from a release candidate. When pushing a large code release in production one would sometimes find that there's a problem with that binary. If reverting the whole release wasn't an option the release engineer would binary search through the code change ids. He would figure out the earliest code change which creates the bug.
+- Figuring out resource requirements for a large system. one could try running load tests on the system and binary search for the minimum amount of CPUs required to handle a predicted load. (this approach is better than random guessing but much worse than doing some analysis of your system and doing some good educated guesses)
+- Figuring out how big should your cache size be for a serving system or deciding on the TTL for the cache.
 
 
